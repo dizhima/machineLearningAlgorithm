@@ -1,0 +1,100 @@
+sourse code(base on python 3) and report for CSE446 assignment 2
+----------------------------------------------
+A2_2.py 
+training the perceptron and plot the error rate for the dataset 2-9.
+after executing the program, there are still some variable one show
+put in, such as the question number the dataset. 
+
+Please put the Program alone with the train data and test data.
+
+the example are showed as follow:
+	------------------
+	example for question 2.1:
+	------------------
+	./python A2_2.py
+	please enter the question number(2.1/2.5/surprise/3/4): 2.1
+	enter the dataset number: 2
+	
+	dataset: 2
+	>>>start trainning Perceptron>>>
+
+	stop at epoch 220
+	error rate achieve(train/test): 0.0 / 1.2 
+	noise features: [9, 17]
+	margin is: 0.0155330325054
+	end training>>>
+
+	plot A2.2.png has been created>>>
+
+	type y for exit:y
+	-------------------
+	example for question2.5:
+	------------------
+	./python A2_2.py
+	please enter the question number(2.1/2.5/surprise/3/4): 2.5
+	enter the dataset number: 2
+
+	dataset: 2
+	>>>start trainning Perceptron with develop data>>>
+
+	stop at epoch 57
+	error rate achieve(develop/train/test): 0.0 / 1.4000000000000001 / 2.1 
+	noise features: [17]
+	end training>>>
+
+	type y for exit:y
+	-------------------
+	example for question surprise:
+	------------------
+	./python A2_2.py
+	please enter the question number(2.1/2.5/surprise/3/4): surprise
+	>>>start trainning Perceptron>>>
+
+	stop at epoch 2691
+	error rate achieve(train/test): 0.0 / 0.1 
+	noise features: [14]
+	margin is: 0.00292490950626
+	end training>>>
+
+	A2.combine A2.6,7,8.png has been created>>>
+
+	type y for exit:y
+	-------------------
+	example for question 3:
+	------------------
+	./python A2_2.py
+	please enter the question number(2.1/2.5/surprise/3/4): 3
+	enter the dataset number: 2
+
+	dataset: 2
+	>>>strat training Voted Perceptron>>>
+	stop at epoch 174
+	error rate achieve(train/test): 0.0 / 0.6 
+	length of weight: 20 
+	noise features: [15]
+	margin is: 0.0042460792479
+	end training>>>
+
+	plot A2.2voted.png has been created>>>
+
+	type y for exit: y
+	-------------------
+	example for question 4:
+	------------------
+	./python A2_2.py
+	please enter the question number(2.1/2.5/surprise/3/4): 4
+	enter the dataset number: 9
+	type y for averaged perceptron:y
+
+	dataset: 9
+	pca!
+	with 95 % of the eigen value, lower the feature to  19 -dimension
+	>>>strat training Voted Perceptron>>>
+	stop at epoch 589
+	error rate achieve(train/test): 10.6 / 10.2 
+	noise features: []
+	end training>>>
+
+	plot A2.9voted.png has been created>>>
+
+	type y for exit:y
